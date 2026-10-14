@@ -59,15 +59,17 @@ def fetch_scholar_data(scholar_id="ovT7Ao4AAAAJ"):
 
     for row in rows:
         # Title & link
-        title_match = re.search(r'class="gsc_a_at"[^>]*>(.*?)</a>', row)
-        title = title_match.group(1) if title_match else "No Title"
+        title_tag_match = re.search(r'<a\s+[^>]*class="gsc_a_at"[^>]*>(.*?)</a>', row, re.DOTALL)
+        title = title_tag_match.group(1) if title_tag_match else "No Title"
         # Clean HTML tags inside title if any
         title = re.sub(r'<[^>]+>', '', title)
 
-        href_match = re.search(r'href="([^"]*)"', title_match.group(0) if title_match else "")
         link = ""
-        if href_match:
-            link = "https://scholar.google.com" + href_match.group(1).replace("&amp;", "&")
+        a_opening_tag = re.search(r'<a\s+[^>]*class="gsc_a_at"[^>]*>', row)
+        if a_opening_tag:
+            href_m = re.search(r'href="([^"]*)"', a_opening_tag.group(0))
+            if href_m:
+                link = "https://scholar.google.com" + href_m.group(1).replace("&amp;", "&")
 
         # Authors & journal (div class="gs_gray")
         divs = re.findall(r'<div class="gs_gray">(.*?)</div>', row)
