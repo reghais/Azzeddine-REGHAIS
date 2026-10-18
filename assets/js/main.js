@@ -909,10 +909,10 @@
   }
 
   function updateUIMetrics(stats) {
-    const citations = stats.citations || 198;
-    const hIndex = stats.h_index || 8;
-    const i10Index = stats.i10_index || 7;
-    const worksCount = stats.works_count || 23;
+    const citations = stats.citations || 227;
+    const hIndex = stats.h_index || 9;
+    const i10Index = stats.i10_index || 8;
+    const worksCount = stats.works_count || 24;
 
     // Direct stat indicators
     const statCit = document.getElementById('stat-citations');
@@ -945,6 +945,22 @@
     "cultivating sustainability": {
       en: "This study presents a multi-assessment of groundwater quality and irrigation suitability in the arid agricultural district of Dzira, located in the Ksour Mountains of Algeria. Utilizing classical geochemical methods and water quality indexes, we analyze the sustainability of irrigation practices and aquifer health.",
       ar: "تقدم هذه الدراسة تقييماً متعدد المعايير لجودة المياه الجوفية ومدى ملاءمتها للري في منطقة دزيرة الفلاحية القاحلة، الواقعة في جبال القصور بالجزائر. بالاعتماد على الطرق الجيوكيميائية الكلاسيكية ومؤشرات جودة المياه، نقوم بتحليل استدامة ممارسات الري وصحة طبقة المياه الجوفية."
+    },
+    "soil and water conservation": {
+      en: "This study introduces an integrated framework combining morphometric analysis, Weighted Sum Analysis (WSA), PCA, and Compositional Data Analysis (CoDA-PCA) to prioritize sub-basins for soil and water conservation in Naama, Southwest Algeria.",
+      ar: "تقدم هذه الدراسة إطاراً متكاملاً يجمع بين التحليل المورفومتري، وتحليل المجموع الموزون (WSA)، وتحليل المكونات الرئيسية (PCA)، وتحليل البيانات التركيبية (CoDA-PCA) لتحديد أولويات الأحواض الفرعية لحفظ التربة والمياه في النعامة، جنوب غرب الجزائر."
+    },
+    "remila plain": {
+      en: "Hydrochemical and multivariate statistical analysis evaluating groundwater quality and hydrochemical processes for agricultural irrigation sustainability in the Remila Plain, Khenchela, Northeast Algeria.",
+      ar: "تحليل هيدروكيميائي وإحصائي متعدد المتغيرات لتقييم جودة المياه الجوفية والعمليات الهيدروكيميائية لأغراض الري الزراعي المستدام في سهل الرميلة، خنشلة، شمال شرق الجزائر."
+    },
+    "landslide": {
+      en: "Geotechnical and geological analysis of slope stability along RN 77 (PK 23+100) in Texenna, Jijel. Evaluates shear strength, failure surfaces, and structural triggers affecting road safety.",
+      ar: "تحليل جيوتقني وجيولوجي واستقصاء ميداني لاستقرار المنحدرات على الطريق الوطني رقم 77 بتكسانة، جيجل. يقيم الميكانيكا المطبقة والانكسارات الهيكلية ومحفزات الانزلاق."
+    },
+    "drastic": {
+      en: "GIS-based hydrogeological vulnerability modeling using the DRASTIC method to assess aquifer vulnerability to agricultural and anthropogenic pollution in semi-arid catchments.",
+      ar: "نمذجة مكانية قائمة على نظم المعلومات الجغرافية باستخدام طريقة DRASTIC لتقييم حساسية طبقات المياه الجوفية للتلوث الفلاحي والبشري في الأحواض شبه القاحلة."
     },
     "hydrogeochemical processes controlling surface water": {
       en: "We investigate the hydrogeochemical processes controlling surface water quality for irrigation within a Mediterranean wetland ecosystem in Northeast Algeria. The findings highlight the impact of rock-water interaction and anthropogenic sources on agricultural suitability.",
