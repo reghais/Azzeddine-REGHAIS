@@ -1039,17 +1039,17 @@
             <span>${currentLang === 'ar' ? 'تحميل ورقة مفتوحة المصدر' : 'Download Open Access'}</span>
           </a>
         `;
-      } else {
-        const textMsg = currentLang === 'ar'
-          ? encodeURIComponent(`مرحباً الدكتور عز الدين رغيس، أود من فضلك طلب نسخة من بحثكم العلمي بعنوان:\n"${title}"`)
-          : encodeURIComponent(`Hello Dr. Azzeddine Reghais, I would like to request a copy of your research paper titled:\n"${title}"`);
-        buttonsHtml += `
-          <a href="https://wa.me/213668261708?text=${textMsg}" target="_blank" rel="noopener noreferrer" class="inline-flex items-center gap-1.5 px-4 py-2 border border-emerald-100 dark:border-emerald-800 text-xs font-semibold rounded-lg text-emerald-700 dark:text-emerald-400 bg-emerald-50 dark:bg-emerald-950/40 hover:bg-emerald-100 transition-all">
-            <i class="fa-brands fa-whatsapp text-emerald-600 text-sm" aria-hidden="true"></i>
-            <span>${currentLang === 'ar' ? 'طلب البحث عبر واتساب' : 'Request via WhatsApp'}</span>
-          </a>
-        `;
       }
+
+      const textMsg = currentLang === 'ar'
+        ? encodeURIComponent(`مرحباً الدكتور عز الدين رغيس، أود من فضلك طلب نسخة من بحثكم العلمي بعنوان:\n"${title}"`)
+        : encodeURIComponent(`Hello Dr. Azzeddine Reghais, I would like to request a copy of your research paper titled:\n"${title}"`);
+      buttonsHtml += `
+        <a href="https://wa.me/213668261708?text=${textMsg}" target="_blank" rel="noopener noreferrer" class="inline-flex items-center gap-1.5 px-4 py-2 border border-emerald-100 dark:border-emerald-800 text-xs font-semibold rounded-lg text-emerald-700 dark:text-emerald-400 bg-emerald-50 dark:bg-emerald-950/40 hover:bg-emerald-100 transition-all">
+          <i class="fa-brands fa-whatsapp text-emerald-600 text-sm" aria-hidden="true"></i>
+          <span>${currentLang === 'ar' ? 'طلب البحث عبر واتساب' : 'Request via WhatsApp'}</span>
+        </a>
+      `;
 
       if (pub.link) {
         buttonsHtml += `
