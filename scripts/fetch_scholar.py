@@ -64,10 +64,12 @@ def fetch_scholar_data(scholar_id="ovT7Ao4AAAAJ"):
         # Clean HTML tags inside title if any
         title = re.sub(r'<[^>]+>', '', title)
 
-        href_match = re.search(r'href="([^"]*)"', title_match.group(0) if title_match else "")
+        href_match = re.search(r'href="([^"]*)"[^>]*class="gsc_a_at"|class="gsc_a_at"[^>]*href="([^"]*)"', row)
         link = ""
         if href_match:
-            link = "https://scholar.google.com" + href_match.group(1).replace("&amp;", "&")
+            raw_href = href_match.group(1) or href_match.group(2)
+            if raw_href:
+                link = "https://scholar.google.com" + raw_href.replace("&amp;", "&")
 
         # Authors & journal (div class="gs_gray")
         divs = re.findall(r'<div class="gs_gray">(.*?)</div>', row)
