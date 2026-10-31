@@ -1,6 +1,7 @@
 #!/usr/bin/env python3
 import urllib.request
 import re
+import html as html_lib
 import json
 import os
 import sys
@@ -63,6 +64,7 @@ def fetch_scholar_data(scholar_id="ovT7Ao4AAAAJ"):
         title = title_match.group(1) if title_match else "No Title"
         # Clean HTML tags inside title if any
         title = re.sub(r'<[^>]+>', '', title)
+        title = html_lib.unescape(title).strip()
 
         href_match = re.search(r'href="([^"]*)"', title_match.group(0) if title_match else "")
         link = ""
@@ -73,10 +75,12 @@ def fetch_scholar_data(scholar_id="ovT7Ao4AAAAJ"):
         divs = re.findall(r'<div class="gs_gray">(.*?)</div>', row)
         authors = divs[0] if len(divs) > 0 else "No Authors"
         authors = re.sub(r'<[^>]+>', '', authors)  # clean tags
+        authors = html_lib.unescape(authors).strip()
 
         journal = divs[1] if len(divs) > 1 else "No Journal/Source"
         # Journal/Source might contain extra spans, clean them
         journal = re.sub(r'<[^>]+>', ' ', journal)
+        journal = html_lib.unescape(journal)
         journal = ' '.join(journal.split())
 
         # Citations

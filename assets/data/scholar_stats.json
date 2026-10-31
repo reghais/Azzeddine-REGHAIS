@@ -1,6 +1,6 @@
 {
   "stats": {
-    "citations": 227,
+    "citations": 228,
     "h_index": 9,
     "i10_index": 8,
     "works_count": 24
@@ -108,7 +108,7 @@
     {
       "title": "Assessment of groundwater quality for irrigation and drinking using water quality indexes in the Upper Sebaou Valley (Tizi Ouzou-eastern Algeria)",
       "authors": "A Sabrina, M Zineb, R Azzeddine, K Ramdane, D Haythem, A Laafer",
-      "journal": "Jordan Journal of Earth &amp; Environmental Sciences 16 (1), 50 , 2025",
+      "journal": "Jordan Journal of Earth & Environmental Sciences 16 (1), 50 , 2025",
       "citations": 3,
       "year": 2025,
       "link": "",
@@ -120,6 +120,15 @@
       "journal": "Geomatics, Landmanagement and Landscape 2024 (3) , 2024",
       "citations": 3,
       "year": 2024,
+      "link": "",
+      "is_oa": false
+    },
+    {
+      "title": "Analysis of relationships between rainfall, stream flow, and climate indices using the wavelet method: The case of Wadi Khemis, northwestern Algeria",
+      "authors": "K Timi, K Baba-Hamed, A Bouanani, A Reghais",
+      "journal": "Doklady Earth Sciences 525 (2), 31 , 2025",
+      "citations": 2,
+      "year": 2025,
       "link": "",
       "is_oa": false
     },
@@ -142,11 +151,11 @@
       "is_oa": false
     },
     {
-      "title": "Analysis of relationships between rainfall, stream flow, and climate indices using the wavelet method: The case of Wadi Khemis, northwestern Algeria",
-      "authors": "K Timi, K Baba-Hamed, A Bouanani, A Reghais",
-      "journal": "Doklady Earth Sciences 525 (2), 31 , 2025",
-      "citations": 1,
-      "year": 2025,
+      "title": "Groundwater resource vulnerability in the annaba coastal aquifer, northeastern Algeria: integrating hydrogeological and socio-economic drivers for sustainable management",
+      "authors": "S Hani, N Harrat, W Hamzaoui, A Reghais",
+      "journal": "Frontiers in Earth Science 14, 1888646 , 2026",
+      "citations": 0,
+      "year": 2026,
       "link": "",
       "is_oa": false
     },
@@ -171,7 +180,7 @@
     {
       "title": "Risk assessment of Heavy Metals in the Complex Terminal aquifer data from biskra, south-est Algeria",
       "authors": "DTH Reghais Azzeddine* , Drouiche Abdelmalek, Zahi Faouzi",
-      "journal": "Biosphere &amp;Environmental Safety , 2022",
+      "journal": "Biosphere &Environmental Safety , 2022",
       "citations": 0,
       "year": 2022,
       "link": "",
@@ -196,7 +205,7 @@
       "is_oa": false
     },
     {
-      "title": "Contribution à l&#39;étude du dimensionnement des périmètres de protection du Lac du Barrage de Fontaine des Gazelles (Wilaya Biskra, sud-est Algérien)",
+      "title": "Contribution à l'étude du dimensionnement des périmètres de protection du Lac du Barrage de Fontaine des Gazelles (Wilaya Biskra, sud-est Algérien)",
       "authors": "NBFH A. REGHAIS, F. MAACHI",
       "journal": "The 3 rd Integrated Water Resources Management ConferenceAt: ALGERIA , 2020",
       "citations": 0,
@@ -210,15 +219,6 @@
       "journal": "The 3 rd Integrated Water Resources Management ConferenceAt: Batna Algeria , 2020",
       "citations": 0,
       "year": 2020,
-      "link": "",
-      "is_oa": false
-    },
-    {
-      "title": "Groundwater resource vulnerability in the Annaba coastal aquifer, northeastern Algeria: Integrating hydrogeological and socio-economic drivers for sustainable management",
-      "authors": "S Hani, N HARRAT, A REGHAIS",
-      "journal": "Frontiers in Earth Science 14, 1888646 , 0",
-      "citations": 0,
-      "year": "",
       "link": "",
       "is_oa": false
     }
