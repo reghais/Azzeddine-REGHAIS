@@ -909,7 +909,7 @@
   }
 
   function updateUIMetrics(stats) {
-    const citations = stats.citations || 227;
+    const citations = stats.citations || 228;
     const hIndex = stats.h_index || 9;
     const i10Index = stats.i10_index || 8;
     const worksCount = stats.works_count || 24;
@@ -943,44 +943,108 @@
 
   const publicationAbstracts = {
     "cultivating sustainability": {
-      en: "This study presents a multi-assessment of groundwater quality and irrigation suitability in the arid agricultural district of Dzira, located in the Ksour Mountains of Algeria. Utilizing classical geochemical methods and water quality indexes, we analyze the sustainability of irrigation practices and aquifer health.",
-      ar: "تقدم هذه الدراسة تقييماً متعدد المعايير لجودة المياه الجوفية ومدى ملاءمتها للري في منطقة دزيرة الفلاحية القاحلة، الواقعة في جبال القصور بالجزائر. بالاعتماد على الطرق الجيوكيميائية الكلاسيكية ومؤشرات جودة المياه، نقوم بتحليل استدامة ممارسات الري وصحة طبقة المياه الجوفية."
+      en: "This study presents a multi-assessment of groundwater quality and irrigation suitability in the arid agricultural district of Dzira (Ksour Mountains, Algeria). Utilizing classical geochemical diagrams, USSL, Wilcox, and IWQI models, we decipher salinity origins, sodicity hazards, and sustainable groundwater management strategies for oasis agriculture.",
+      ar: "تقدم هذه الدراسة تقييماً شاملاً متعدد المعايير لجودة المياه الجوفية ومدى ملاءمتها للري في المقاطعة الزراعية القاحلة دزيرة (جبال القصور، الجزائر). بالاعتماد على المخططات الهيدروكيميائية الكلاسيكية ونماذج USSL وWilcox ومؤشر جودة مياه الري IWQI، تفكك الدراسة مصادر الملوحة ومخاطر الصودية واستراتيجيات الإدارة المستدامة للزراعة الواحاتية."
+    },
+    "hydrogeochemical processes controlling surface water": {
+      en: "We investigate the hydrogeochemical processes controlling surface water quality for irrigation within a Mediterranean wetland ecosystem in Northeast Algeria. The findings highlight rock-water interactions, seasonal evaporation dynamics, and anthropogenic agricultural runoff influencing aquatic health and irrigation feasibility.",
+      ar: "تبحث هذه الدراسة في العمليات الهيدروجيوكيميائية المتحكمة في جودة المياه السطحية لأغراض الري داخل نظام بيئي للأراضي الرطبة المتوسطية في شمال شرق الجزائر. تسلط النتائج الضوء على تفاعلات الصخور والمياه وديناميكيات التبخر الموسمي ومصادر الجريان السطحي الزراعي المؤثرة على الملاءمة الهيدرولوجية."
+    },
+    "hydrogeochemical evaluation of the terminal complex": {
+      en: "A detailed hydrogeochemical evaluation of the Terminal Complex (TC) aquifer system in an arid zone of Biskra, Northeast Algeria. Integrating major ionic ratios, Piper diagrams, and mineral saturation indices, this research elucidates carbonate and evaporite dissolution pathways and drinking water suitability.",
+      ar: "تقييم هيدروجيوكيميائي مفصل لنظام طبقة المياه الجوفية للمركب النهائي (TC) في المنطقة القاحلة ببسكرة، شمال شرق الجزائر. يدمج البحث النسب الأيونية الكبرى، ومخططات بايبر، ومؤشرات التشبع المعدني لتحديد مسارات ذوبان الكربونات والتبخرات وصلاحية مياه الشرب والاستهلاك البشري."
+    },
+    "compositional data analysis": {
+      en: "Applying Compositional Data Analysis (CoDA) with isometric log-ratio (ilr) and centered log-ratio (clr) transformations to geochemical signatures of the Terminal Complex aquifer in northeastern Algeria. This method eliminates spurious correlations inherent in closed compositional data, uncovering true geochemical controlling mechanisms.",
+      ar: "تطبيق منهجية تحليل البيانات التركيبية (CoDA) عبر تحويلات نسبة اللوغاريتم المتساوي (ilr) والمركزي (clr) على البصمات الجيوكيميائية لطبقة المركب النهائي بشمال شرق الجزائر. تقضي المنهجية على الارتباطات الزائفة في البيانات المغلقة، كاشفة عن الآليات الجيوكيميائية الحقيقية المتحكمة في التمعدن."
+    },
+    "groundwater quality assessment using revised": {
+      en: "An international collaborative study evaluating groundwater quality across Wadi Ranyah, Saudi Arabia. By integrating revised classical geochemical diagrams with Compositional Data Analysis (CoDa), the research provides robust characterization of aquifer salinization processes and water suitability for domestic and irrigation use.",
+      ar: "دراسة تعاونية دولية لتقييم جودة المياه الجوفية في حوض وادي رنية بالمملكة العربية السعودية. عبر دمج المخططات الجيوكيميائية الكلاسيكية المنقحة مع تحليل البيانات التركيبية (CoDa)، يقدم البحث توصيفاً متيناً لمسارات تملح الخزان وصلاحية المياه للاستخدام المنزلي والزراعي."
+    },
+    "potentially toxic elements": {
+      en: "Risk assessment of potentially toxic elements (PTEs) and heavy metal pollution in an agricultural area of Northeast Algeria. Soft computing models, machine learning, and pollution indices (HPI, HEI, Cd) are combined to deliver high-resolution spatial mapping of groundwater contamination vulnerability.",
+      ar: "تقييم مخاطر العناصر السامة والمحتملة (PTEs) والتلوث بالمعادن الثقيلة في منطقة زراعية بشمال شرق الجزائر. تم دمج نماذج الحوسبة اللينة، والتعلم الآلي، ومؤشرات التلوث (HPI, HEI, Cd) لإنتاج خرائط مكانية عالية الدقة لحساسية الخزانات الجوفية للتلوث."
     },
     "soil and water conservation": {
-      en: "This study introduces an integrated framework combining morphometric analysis, Weighted Sum Analysis (WSA), PCA, and Compositional Data Analysis (CoDA-PCA) to prioritize sub-basins for soil and water conservation in Naama, Southwest Algeria.",
-      ar: "تقدم هذه الدراسة إطاراً متكاملاً يجمع بين التحليل المورفومتري، وتحليل المجموع الموزون (WSA)، وتحليل المكونات الرئيسية (PCA)، وتحليل البيانات التركيبية (CoDA-PCA) لتحديد أولويات الأحواض الفرعية لحفظ التربة والمياه في النعامة، جنوب غرب الجزائر."
+      en: "This study introduces an integrated multidisciplinary framework combining morphometric analysis, Weighted Sum Analysis (WSA), PCA, and Compositional Data Analysis (CoDA-PCA) to prioritize sub-basins for soil and water conservation interventions in the Naama basin, Southwest Algeria.",
+      ar: "تقدم هذه الدراسة إطاراً متعدد التخصصات يدمج التحليل المورفومتري، وتحليل المجموع الموزون (WSA)، وتحليل المكونات الرئيسية (PCA)، وتحليل البيانات التركيبية (CoDA-PCA) لتحديد أولويات التدخل لحفظ التربة والمياه في الأحواض الفرعية بالنعامة، جنوب غرب الجزائر."
+    },
+    "mediterranean coastal aquifer": {
+      en: "Integrating Water Quality Indices (WQI) and multivariate statistical techniques (HCA, PCA) to assess hydrochemical facies and groundwater degradation mechanisms in a sensitive Mediterranean coastal aquifer system in Northeast Algeria.",
+      ar: "تكامل مؤشرات جودة المياه (WQI) مع التقنيات الإحصائية متعددة المتغيرات (HCA, PCA) لتقييم السحنات الهيدروكيميائية وآليات تدهور المياه الجوفية في نظام خزان ساحلي متوسطي حساس بشمال شرق الجزائر."
+    },
+    "hybridization of drastic method": {
+      en: "Hybridization of the DRASTIC vulnerability index with spatial sensitivity analysis and hydrogeological parameters to simulate and predict future groundwater contamination scenarios in the Tebessa-Morsott alluvial aquifer, Northeast Algeria.",
+      ar: "تهجين طريقة DRASTIC لتقييم الحساسية مع التحليل المكاني والمعايير الهيدروجيولوجية لمحاكاة والتنبؤ بسيناريوهات تلوث المياه الجوفية المستقبلية في خزان تبسة-مرسط الطميي، شمال شرق الجزائر."
+    },
+    "tadjenanet-chelghoum": {
+      en: "Comparative assessment of groundwater vulnerability to pollution using DRASTIC and Susceptibility Index (SI) models in the alluvial aquifer of Tadjenanet-Chelghoum Laid (Eastern Algeria), optimizing agricultural protection perimeters.",
+      ar: "تقييم مقارن لحساسية المياه الجوفية للتلوث باستخدام طريقتي DRASTIC ومؤشر القابلية للتأثر (SI) في الخزان الطميي لتاجنانت-شلغوم العيد (شرق الجزائر)، مع تحسين نطاقات الحماية الزراعية."
+    },
+    "etude du fonctionnement hydrodynamique": {
+      en: "Dr. Azzeddine Reghais' PhD dissertation: a comprehensive hydrodynamic and hydrochemical investigation of the Terminal Complex aquifer in Biskra, SE Algeria. Integrates flow modeling, compositional data analysis, GIS mapping, and machine learning to secure long-term arid water sustainability.",
+      ar: "أطروحة الدكتوراه للدكتور عز الدين رغيس: دراسة معمقة للعمل الهيدروديناميكي والهيدروكيميائي لطبقة المركب النهائي ببسكرة، جنوب شرق الجزائر. تدمج نمذجة التدفق، وتحليل البيانات التركيبية، والخرائط المكانية، والتعلم الآلي لضمان الأمن المائي المستدام في المناطق القاحلة."
+    },
+    "upper sebaou valley": {
+      en: "Evaluation of groundwater quality for drinking and irrigation purposes using irrigation indices, Wilcox diagrams, and water quality indices in the alluvial valley of Upper Sebaou (Tizi Ouzou, Eastern Algeria).",
+      ar: "تقييم جودة المياه الجوفية لأغراض الشرب والري الزراعي باستخدام مؤشرات الري، ومخطط ويلكوكس، ومؤشرات جودة المياه في الوادي الطميي لسيباو الأعلى (تيزي وزو، شرق الجزائر)."
     },
     "remila plain": {
-      en: "Hydrochemical and multivariate statistical analysis evaluating groundwater quality and hydrochemical processes for agricultural irrigation sustainability in the Remila Plain, Khenchela, Northeast Algeria.",
-      ar: "تحليل هيدروكيميائي وإحصائي متعدد المتغيرات لتقييم جودة المياه الجوفية والعمليات الهيدروكيميائية لأغراض الري الزراعي المستدام في سهل الرميلة، خنشلة، شمال شرق الجزائر."
+      en: "Hydrochemical characterization and groundwater quality assessment for agricultural irrigation in the Remila Plain, Khenchela (Northeast Algeria). Identifies primary mineral dissolution processes and salinization hazards for crop production.",
+      ar: "توصيف هيدروكيميائي وتقييم جودة المياه الجوفية للري الزراعي في سهل الرميلة، خنشلة (شمال شرق الجزائر). يحدد العمليات الأساسية لإذابة المعادن ومخاطر التملح المؤثرة على الإنتاج الفلاحي."
+    },
+    "wavelet method": {
+      en: "Continuous and cross-wavelet transform analysis investigating multiscale relationships and teleconnections between precipitation regimes, streamflow discharge, and large-scale atmospheric climate indices in Wadi Khemis, NW Algeria.",
+      ar: "تحليل المويجات المستمر والمتقاطع (Wavelet Transform) لاستكشاف العلاقات والارتباطات متعددة المقاييس بين أنظمة هطول الأمطار، وتدفق الوديان، ومؤشرات المناخ الجوي الكبرى في وادي خميس، شمال غرب الجزائر."
+    },
+    "sidi rached": {
+      en: "Combined chemical and microbiological evaluation of groundwater quality in the agricultural plain of Sidi Rached, Northern Algeria, establishing baseline sanitary parameters and contamination vectors for public health safety.",
+      ar: "تقييم كيميائي وميكروبيولوجي مزدوج لجودة المياه الجوفية في سهل سيدي راشد الزراعي بشمال الجزائر، مع تحديد المعايير الصحية وناقلات التلوث لضمان سلامة الصحة العامة والمياه المستهلكة."
+    },
+    "m’leta plain": {
+      en: "Hydrogeological investigation of water resources and physicochemical attributes of the Mio-Pliocene aquifer system in the M'leta Plain, Western Algeria, addressing high salinity constraints and sustainable management.",
+      ar: "استقصاء هيدروجيولوجي للموارد المائية والخصائص الفيزيوكيميائية لنظام خزان الميو-بليوسين في سهل الملاطة بغرب الجزائر، لمعالجة قيود الملوحة المرتفعة والإدارة المستدامة للمياه."
+    },
+    "annaba coastal aquifer": {
+      en: "Assessment of groundwater resource vulnerability in the Annaba coastal aquifer (NE Algeria) by integrating hydrogeological dynamics with socio-economic drivers and human pressures for sustainable coastal aquifer management.",
+      ar: "تقييم حساسية موارد المياه الجوفية في الخزان الساحلي لعنابة (شمال شرق الجزائر) عبر دمج الديناميكيات الهيدروجيولوجية مع العوامل الاجتماعية والاقتصادية والضغوط البشرية لإدارة ساحلية مستدامة."
+    },
+    "monitoring of groundwater quality for drinking in northern algeria": {
+      en: "Statistical approach and multivariate factor analysis applied to spatial groundwater quality monitoring networks in Northern Algeria, determining regulatory compliance for municipal potable water supply.",
+      ar: "مقاربة إحصائية وتحليل عاملي متعدد المتغيرات مطبق على شبكات مراقبة جودة المياه الجوفية في شمال الجزائر، لتحديد مطابقتها للمعايير التنظيمية لإمدادات مياه الشرب الحضرية."
+    },
+    "assessing groundwater quality in northern algeria": {
+      en: "Geochemical facies identification and indexing methodologies applied to evaluate aquifer potability, mineralization evolution, and anthropogenic impacts across northern Algerian sedimentary basins.",
+      ar: "تحديد السحنات الجيوكيميائية ومنهجيات المؤشرات لتقييم صلاحية مياه الخزانات الجوفية للشرب، وتطور التمعدن، والتأثيرات البشرية عبر الأحواض الرسوبية في شمال الجزائر."
+    },
+    "heavy metals in the complex terminal aquifer": {
+      en: "Investigation and spatial distribution modeling of trace heavy metals within the Complex Terminal aquifer of the Biskra oasis region, analyzing toxic element enrichment and human health risks.",
+      ar: "استقصاء ونمذجة التوزيع المكاني للمعادن الثقيلة الدقيقة داخل خزان المركب النهائي في واحات بسكرة، مع تحليل التخصيب بالعناصر السامة ومخاطرها على صحة الإنسان."
+    },
+    "heavy metal contamination indices (biskra": {
+      en: "Conference presentation evaluating groundwater degradation using heavy metal pollution and contamination indices in Biskra, highlighting localized industrial and agricultural accumulation points.",
+      ar: "عرض علمي لتقييم تدهور المياه الجوفية باستخدام مؤشرات تلوث المعادن الثقيلة في بسكرة، مع تسليط الضوء على بؤر التراكم الزراعي والصناعي المحلية."
+    },
+    "region of el-ghrous": {
+      en: "Hydrochemical and salinity risk assessment of irrigation groundwaters in the date-palm agricultural oasis of El-Ghrous (Biskra, Algeria), offering soil sodification prevention recommendations.",
+      ar: "تقييم مخاطر الملوحة والهيدروكيمياء لمياه الري الجوفية في الواحات الزراعية لإنتاج التمور بالغروس (بسكرة، الجزائر)، مع تقديم توصيات للوقاية من صودية وتملح التربة."
+    },
+    "fontaine des gazelles": {
+      en: "Hydrogeological sizing study of protection perimeters and watershed containment for the Fontaine des Gazelles Dam Lake reservoir in Biskra, preventing siltation and surface water degradation.",
+      ar: "دراسة هيدروجيولوجية لحساب أبعاد محيطات الحماية وحوض تجميع المياه لبحيرة سد عين الغزالة (ولاية بسكرة)، للوقاية من التوحل وتدهور نوعية المياه السطحية المخزنة."
+    },
+    "biskrawadi": {
+      en: "GIS-assisted DRASTIC modeling for mapping intrinsic aquifer vulnerability in Biskra Wadi, establishing zoning guidelines for infrastructure development and groundwater preservation.",
+      ar: "نمذجة DRASTIC المدعومة بنظم المعلومات الجغرافية لرسم خرائط الحساسية الجوفية الجوهرية في وادي بسكرة، وتحديد توجيهات التقسيم لتطوير البنية التحتية وحماية المياه الجوفية."
     },
     "landslide": {
       en: "Geotechnical and geological analysis of slope stability along RN 77 (PK 23+100) in Texenna, Jijel. Evaluates shear strength, failure surfaces, and structural triggers affecting road safety.",
-      ar: "تحليل جيوتقني وجيولوجي واستقصاء ميداني لاستقرار المنحدرات على الطريق الوطني رقم 77 بتكسانة، جيجل. يقيم الميكانيكا المطبقة والانكسارات الهيكلية ومحفزات الانزلاق."
+      ar: "تحليل جيوتقني وجيولوجي واستقصاء ميداني لاستقرار المنحدرات على الطريق الوطني رقم 77 بتكسانة، جيجل. يقيم الميكانيكا المطبقة والانكسارات الهيكلية ومحفزات الانزلاق لضمان سلامة الطرق.",
     },
     "drastic": {
       en: "GIS-based hydrogeological vulnerability modeling using the DRASTIC method to assess aquifer vulnerability to agricultural and anthropogenic pollution in semi-arid catchments.",
       ar: "نمذجة مكانية قائمة على نظم المعلومات الجغرافية باستخدام طريقة DRASTIC لتقييم حساسية طبقات المياه الجوفية للتلوث الفلاحي والبشري في الأحواض شبه القاحلة."
-    },
-    "hydrogeochemical processes controlling surface water": {
-      en: "We investigate the hydrogeochemical processes controlling surface water quality for irrigation within a Mediterranean wetland ecosystem in Northeast Algeria. The findings highlight the impact of rock-water interaction and anthropogenic sources on agricultural suitability.",
-      ar: "نبحث في العمليات الهيدروجيوكيميائية التي تتحكم في جودة المياه السطحية لأغراض الري داخل نظام بيئي للأراضي الرطبة المتوسطية في شمال شرق الجزائر. تسلط النتائج الضوء على تأثير تفاعل الصخور والمياه والمصادر البشرية على الملاءمة الزراعية."
-    },
-    "hydrogeochemical evaluation of the terminal complex": {
-      en: "A detailed hydrogeochemical evaluation of the Terminal Complex aquifer system in Biskra, northeast Algeria. The research uncovers geochemical evolution, ion-exchange processes, and groundwater quality limitations for drinking and agricultural use under arid conditions.",
-      ar: "تقييم هيدروجيوكيميائي مفصل لنظام طبقة المياه الجوفية للمركب النهائي (Terminal Complex) في منطقة بسكرة، شمال شرق الجزائر. يكشف البحث عن التطور الجيوكيميائي، وعمليات التبادل الأيوني، ومحددات جودة المياه الجوفية للشرب والاستخدام الزراعي في الظروف القاحلة."
-    },
-    "compositional data analysis": {
-      en: "Applying Compositional Data Analysis (CoDA) and log-ratio transformations to geochemical signatures of the Terminal Complex aquifer. This approach effectively resolves the constant-sum constraint of hydrochemical datasets, revealing unbiased geological processes.",
-      ar: "تطبيق تحليل البيانات التركيبية (CoDA) وتحويلات نسبة اللوغاريتم على البصمات الجيوكيميائية لطبقة المياه الجوفية للمركب النهائي. يحل هذا النهج بفعالية قيد المجموع الثابت لمجموعات البيانات الهيدروكيميائية، مما يكشف عن العمليات الجيولوجية غير المتحيزة."
-    },
-    "groundwater quality assessment using revised": {
-      en: "An international collaborative study assessing groundwater quality in Wadi Ranyah, Saudi Arabia. By integrating revised classical diagrams and Compositional Data Analysis (CoDa), we characterize spatial geochemical pathways and agricultural usability.",
-      ar: "دراسة كيميائية هيدروجيولوجية لتقييم جودة المياه الجوفية في وادي رنية، المملكة العربية السعودية. من خلال دمج المخططات الكلاسيكية المنقحة وتحليل البيانات التركيبية (CoDa)، نحدد المسارات الجيوكيميائية المكانية ومدى الصلاحية الزراعية."
-    },
-    "potentially toxic elements": {
-      en: "An assessment of risk from potentially toxic elements and heavy metals in agricultural soils and groundwater in Northeast Algeria. Utilizing soft computer models and pollution indices, we map vulnerable zones to support environmental preservation.",
-      ar: "تقييم مخاطر العناصر السامة والمحتملة والمعادن الثقيلة في التربة الزراعية والمياه الجوفية في شمال شرق الجزائر. باستخدام النماذج الحاسوبية اللينة ومؤشرات التلوث، نقوم برسم خرائط للمناطق الضعيفة لدعم الحفاظ على البيئة."
     }
   };
 
